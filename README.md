@@ -4,7 +4,9 @@ Streamlit App to help first time GitHub users to create commits
 ## Requirements
 
 Git
+
 Streamlit
+
 Python
 
 ## How to run
