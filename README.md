@@ -3,11 +3,13 @@ Streamlit App to help first time GitHub users to create commits
 
 ## Requirements
 
-Git
+Git - you can download Git here https://git-scm.com/download/win
 
-Streamlit
+Python - https://www.python.org/downloads/
 
-Python
+Streamlit - https://pypi.org/project/streamlit/
+
+
 
 ## How to run
 1. In order to run Git Commit App, the user must first download the repository locally. 
