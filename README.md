@@ -14,7 +14,7 @@ Python
 
 3. Lastly, the user must run the command 'streamlit run Git-Commit-App.py' in the terminal in the Git-Commit-App repository which will open the app in the user's web browser. 
 
-[[https://github.com/BaileyMatrascia/Git-Commit-App/blob/img/terminalStreamlit.png|?raw=true]]
+![Screenshot](terminalStreamlit.png)
 
 4. After, the app is running and ready for commits!
 
