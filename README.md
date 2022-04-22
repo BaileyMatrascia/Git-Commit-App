@@ -18,6 +18,8 @@ Python
 
 4. After, the app is running and ready for commits!
 
+![Screenshot](GitCommitApp.png)
+
 ## Set up
 
 1. First on line 13 in the Git-Commit-App the user needs to input the directory location of the GitHub project they intend on creating commits for.
