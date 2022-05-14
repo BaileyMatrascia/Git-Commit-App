@@ -1,13 +1,11 @@
 import streamlit as st
-import numpy as np
-import requests
 from github import Github
 import re
 from git import Repo
 import git
 
 
-st.title("Github Command Tool")
+st.title("Git Commit App")
 
 #TODO Insert File directory location here
 repo = Repo("Insert file directiory of project here")
@@ -24,7 +22,7 @@ g = Github(base_url="https://github.com/api/v3", login_or_token="access_token")
 
 
 #git add
-st.write("Step 1. git add -A adds all changes to prepare for commit, click button below to add your changes")
+st.write("Step 1. git add -A  is a command that adds all changes to a space that behaves like a container, click button below to add your changes")
 result = st.button("git add -A")
 
 st.write(result)
@@ -37,7 +35,7 @@ if result:
 
 
 #git commit
-st.write("Step 2. git commit -m puts all of your changes and puts a label on it to create a commit(commit message will go in quotes following -m)")
+st.write("Step 2. git commit -m is the command that then takes that container and puts a message on it to create a commit(commit message would go in quotes following the command in terminal)")
 st.write("(if error occurs make sure all changes in your file are saved)")
 
 message = st.text_input("Write Commit Message here")
@@ -51,7 +49,7 @@ if result:
 
 
 #git push
-st.write("Step 3. git push uploads your commit to GitHub and updates your repository with your changes")
+st.write("Step 3. git push is the command that sends your commit to GitHub and updates your repository with your changes")
 result = st.button("git push")
 
 st.write(result)
